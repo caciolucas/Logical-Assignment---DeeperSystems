@@ -1,3 +1,6 @@
+
 # Logical Assignment Deeper Systems
-Pequena tarefa aplicada como teste pela Deeper Systems.
-O script *main.py* verifica o log de mensagens de um JSON original e gera um novo arquivo JSON para cada remetente das mensagens. Os arquivos JSON criados possuem como chave o *timestamp* de uma das mensagem (no caso, a primeira) e todas as demais que foram enviadas por este mesmo remetente num intervalo de 2 minutos.
+
+A small task applied as a test by Deeper Systems.
+
+The *main.py* script checks the message log from an original JSON and generates a new JSON file for each message sender. The created JSON files use the *timestamp* of one of the messages (in this case, the first) as the key, and include all other messages sent by the same sender within a 2-minute interval.
